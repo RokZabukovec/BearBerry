@@ -1,0 +1,19 @@
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .stores-nav-items {
+        display: flex;
+    }
+    .registration-nav-items {
+        display: flex;
+    }
+}
+
+.navbar-brand {
+    padding: 8px;
+}
+
+.bg-white {
+    background: #ffffff;
+}

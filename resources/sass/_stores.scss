@@ -1,0 +1,54 @@
+.stores{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.store{
+    box-shadow: 1px 5px 15px #ccc;
+    font-family: "Arial", sans-serif;
+    background: white;
+    margin-right: 5px;
+    min-height: 200px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    font-weight: bold;
+}
+
+.item{
+    width: 100%;
+    padding: 1.5em;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-name{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.good{
+    border-left: 3px solid green;
+    background: #f5ffec;
+}
+
+.warning{
+    border-left: 3px solid #f5db00;
+    background: #fff9f0;
+}
+
+.out-of-stock{
+    border-left: 3px solid #ad0019;
+    background: #fcf1f1;
+}

@@ -1,0 +1,41 @@
+footer {
+    background: #000000;
+    color: #ffffff;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    clear: both;
+    position: relative;
+    margin-top: 45vh;
+}
+
+.footer-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        font-size: 3em;
+    }
+}
+
+.footer-links {
+    ul {
+        display: flex;
+        list-style: none;
+        margin-top: 15px;
+        li {
+            font-weight: bold;
+            padding: 0 1em;
+        }
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .footer-links {
+        ul {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+    }
+}
