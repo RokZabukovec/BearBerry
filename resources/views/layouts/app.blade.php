@@ -79,7 +79,7 @@
         </nav>
         @if(Auth::user() && Auth::user()->hasRole('administrator'))
             <nav class="navbar-admin">
-                <ul>
+                <ul id="admin-nav">
                     <a href="{{ route('store.create') }}"><li>Add store</li></a>
                     <a href="{{ route('item.create') }}"><li>Add items</li></a>
                     <a href="{{ route('categories.create') }}"><li>Add category</li></a>
